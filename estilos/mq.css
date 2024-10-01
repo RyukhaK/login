@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+    body{ 
+       
+        background-image: linear-gradient(#4D6CFA , rgb(113, 6, 39 ) );
+    }
+    #branco { transition:all .3s;
+        transition-timing-function: ease;
+        width: 80vw;
+        height: 290px;
+    }
+    #img{ 
+        width: 24vw;
+        float: left;
+        height: 290px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+    p { 
+        margin-left: 10px;
+    }
+
+    span.material-symbols-outlined{ 
+        margin-right: 1px;
+        margin-left: 0px;
+    }
+    
+    input.texto{ 
+        margin-left: -6px;
+        width: calc(50vw - 2.5vw);
+
+    
+        
+    }
+   
+    form{ 
+        float: inline-start;
+    }
+
+    .botao{ width: calc(55vw - 2.5vw);
+        margin-left: 0px;
+    }
+    
+}

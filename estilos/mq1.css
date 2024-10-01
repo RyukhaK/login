@@ -1,0 +1,43 @@
+@media screen and (min-width: 991px) {
+   
+    
+    #branco{ transition: width 2s height 2s;
+        transition-timing-function: ease;
+        height: 350px;
+        width: 950px;
+    }
+
+    h1{ 
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    p{ 
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    #img{ 
+        float: right;
+        margin-right: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 350px;
+        width: 480px;
+        background-position: bottom left;
+    }
+    
+    span.material-symbols-outlined{ 
+        margin-left: 10px;}
+
+    input.texto{ 
+        top: -10px;
+        width: 405px;
+    }
+    .botao{ 
+        margin-left: 10px;
+        width: 450px;
+        font-size: 1em;
+    }
+}
